@@ -10,7 +10,7 @@ export class SpotifyService{
     private albumUrl: string;
     private ACCESS_TOKEN : String;
     constructor(private _http:Http){
-        this.ACCESS_TOKEN = 'BQCW2YoXg9np219tpl5Ah3cCWstzAOsjkHuqY2T6Ffu-FxMqY47EqH7rsLGGjw-W31Ff_nRcsy19z-tSOaJ0zCpXsbeno1SMUB3ZeQRdr8cO8KmWS1BsLkQvjZC92wBJ1b1KI_LEk4ethyq8P1cNYYf22k_JpeW-EVvdGTij20yrYiDjx8M&refresh_token=AQBtmmGJSaz_u3zZ69uimlQg76XBaBMRIwbbAksNx2a1tHJVt4AixS0OnF0dcF5UdNBlAAeSMy9L1DACCyPGI_ywrKkYbwQF8bBF4MK7e_qJteobwlY8UTGKXQY7-08MEAg';
+        this.ACCESS_TOKEN = 'BQCbWKcQn5e-GoW4ZFbMifCtTDtJgDKy3cXBo8LYNW4F6j38SuyiWcJ3exFlIfbV--UxGKpFdy7wyiZTXA-Pn5ymNVXq7_3syHH9qCRFcATAyZabvv7p6l8U-nTK5CZz80LPWPL9XF8hiumHqBUqstoUGwPCoheFMPj98XSJndHutvAf-2Y&refresh_token=AQB_QIIV8vgL10aws8fFTuZxq0NbIRoEwQsYZ0flWsg0FNLkwzJNxXS4uMUrL2bbrSs3YSoWbqOvOCLn0FpMOhuN3VTbjrourI1PG6RFUVmH_VwqPyrGPlsuAQij2OoL9h4';
     }
     
     searchMusic(str:string, type='artist'){
